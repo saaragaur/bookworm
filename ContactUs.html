@@ -1,0 +1,173 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>bOOKworm</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+</head>
+<style>
+  body{
+    background-color: rgb(207, 194, 202);
+  }
+</style>
+
+
+<body>
+    <nav class="navbar navbar-expand-lg bg-light">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">bOOkworm</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link " aria-current="page" href="/website.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link " href="Genre.html">Find Your Genre</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            More
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="ContactUs.html">Contact</a></li>
+                            <li><a class="dropdown-item" href="PersonalFavorite.html">Personal Favorite</a></li>
+                             <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            
+                        </ul>
+                    </li>
+                     <li class="nav-item">
+                       
+                </ul>
+                <form class="d-flex" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+    <div class="container my-4">
+<h2>Contact Us</h2>
+<div class="mb-3">
+    <form>
+    <label for="exampleFormControlInput1" class="form-label"><b>Email address</b></label>
+    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+  </div>
+  
+    <div class="row">
+        <div class="col">
+          <input type="text" class="form-control" placeholder="First name" aria-label="First name">
+        </div>
+        <div class="col">
+          <input type="text" class="form-control" placeholder="Last name" aria-label="Last name">
+        </div>
+      </div>
+      </div>
+      <div class="container" mt-4>
+        <select class="form-control"  placeholder="Want A Suggestion?Select The Genre." aria-label="Want A Suggestion?Select The Genre." >
+            <option>Want A Suggestion? Select The Genre. </option>
+            <option value="1">fiction</option>
+            <option value="2">science fatasy</option>
+            <option value="3">fantasy</option>
+            <option value="4">dystopian</option>
+            <option value="5">action and adventure</option>
+            <option value="6">mystery</option>
+            <option value="7">horror</option>
+            <option value="8">thriller and suspense</option>
+            <option value="9">historical fiction</option>
+            <option value="10">romance</option>
+            <option value="11">women's fiction</option>
+            <option value="12">contemporary fiction</option>
+            <option value="13">literary</option>
+            <option value="14">magical realism</option>
+            <option value="15">graphic comics</option>
+            <option value="16">short stories</option>
+            <option value="17">young new</option>
+            <option value="18">adult new</option>
+            <option value="19">children</option>
+            <option value="20">memoir and autobiography</option>
+            <option value="21">biography</option>
+            <option value="22">art and photgraphy</option>
+            <option value="23">self help</option>
+            <option value="24">history</option>
+            <option value="25">travel </option>
+            <option value="26"> true crime</option>
+            <option value="27">humour</option>
+            <option value="28">parenting and families</option>
+            <option value="29">guide/how-to</option>
+            <option value="30">regional and spirituality</option>
+          </select>
+      </div>
+      <div class="container my-4">
+        <div class="form-check">
+            <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+            <label class="form-check-label" for="flexRadioDefault1">
+              <b>Books For Beginners.</b>
+            </label>
+          </div>
+          <div class="form-check">
+            <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" checked>
+            <label class="form-check-label" for="flexRadioDefault2">
+              <b>Books For Advanced Readers.</b>
+            </label>
+          </div>
+          </div>
+          <div class="container my-4">
+          <input class="form-control" type="text" placeholder="Want To Donate?" aria-label="default input example">
+
+      </div>
+      <div class="container my-4">
+        <div class="form-floating">
+            <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea"></textarea>
+            <label for="floatingTextarea">Enter Your Query.</label>
+          </div>
+      </div>
+      <div class="container my-4">
+      <button class="btn btn-primary">SUBMIT</button>
+    </div>
+    </form>
+
+    <!-- <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+        <p class="col-md-4 mb-0 text-muted">© 2022 Company, Inc</p>
+    
+        <a href="/" class="col-md-4 d-flex align-items-center justify-content-center mb-3 mb-md-0 me-md-auto link-dark text-decoration-none">
+            <img class="bi me-2" width="40" height="32" src="18.webp">
+           <svg class="bi me-2" width="40" height="32"><use xlink:href="#bootstrap"></use></svg>
+        </a> 
+    
+        <ul class="nav col-md-4 justify-content-end">
+          <li class="nav-item"><a href="/website.html" class="nav-link px-2 text-muted">Home</a></li>
+          <li class="nav-item"><a href="/Genre.html" class="nav-link px-2 text-muted">Genre</a></li>
+          <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">contact</a></li>
+          <li class="nav-item"><a href="#" class="nav-link px-2 text-muted"></a></li>
+          <li class="nav-item"><a href="#" class="nav-link px-2 text-muted"></a></li>
+        </ul>
+      </footer> -->
+      <div class="container">
+        <footer class="py-3 my-4">
+          <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+            <li class="nav-item"><a href="website.html" class="nav-link px-2 text-muted">HOME</a></li>
+            <li class="nav-item"><a href="Genre.html" class="nav-link px-2 text-muted">GENRE</a></li>
+            <li class="nav-item"><a href="ContactUs.html" class="nav-link px-2 text-muted">CONTACT </a></li>
+            
+            <li class="nav-item"><a href="PersonalFavorite.html" class="nav-link px-2 text-muted">FAVORITES</a></li>
+          </ul>
+          <p class="text-center text-muted">© 2022 Company, Inc</p>
+        </footer>
+      </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
